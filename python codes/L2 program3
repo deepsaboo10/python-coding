@@ -1,0 +1,5 @@
+str="apna_college"
+print(str[2])#indexing
+print(str[0:4])
+print(str[5:12])#slicing
+print(str[-2:-1])#negative slicing

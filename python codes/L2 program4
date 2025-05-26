@@ -1,0 +1,9 @@
+str="i am studying python from Apnacollege"
+print(str.endswith("ge"))#returns boolean value
+print(str.find("f"))#indexing 
+print(str.capitalize())#capitalizes first letter
+print(str.replace("studying","nothing"))
+print(str.count("o"))
+print(str.find("Q"))#it does not exist so it returen -1 value as result
+
+#string functions

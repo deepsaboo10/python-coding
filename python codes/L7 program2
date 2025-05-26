@@ -1,0 +1,25 @@
+#read() :reads the entire file.
+#readline() : reads one line at a time.
+
+ #Eg:
+f=open("new.txt","r")
+
+line1=f.readline()                       #I am learning    (only)
+print(line1)
+
+f.close()
+
+
+ #Eg:
+f=open("new.txt","r")
+
+data=f.read()       
+print(data)                  #I am learning ....(next line) Python from Apnacollege
+                            
+line1=f.readline()
+print(line1)                   #empty line
+
+line2=f.readline()
+print(line2)                   #empty line
+
+f.close()

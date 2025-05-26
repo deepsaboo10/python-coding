@@ -1,0 +1,14 @@
+#dictionary in python = {} and dictionary is stored in (key:value) pairs
+
+info={"name": "shraddha",
+      "cgpa":9.6,
+      "marks":[96,92,89,80]
+      }
+print(info)
+print(type(info))
+print(info["name"])
+print(info["marks"])
+
+print(info["surname"]) #does not exist so gives error
+
+# NOTE : after one error is should the program stops further output 

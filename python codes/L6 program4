@@ -1,0 +1,21 @@
+#PRACTICE PROGRAMS
+
+#Write a recursive function to calculate the sum of first n natural numbers.
+def calc_sum(n):
+    if(n==0):
+        return 0
+    else:
+        return calc_sum(n-1) + n      # sum(5)= sum(4) + 5 ; sum(4)= sum(3) + 4 .....
+    
+sum= calc_sum(5)
+print(sum)
+
+#Write a recursive function to print all elements in a list. (Hint: use list & index as parameters.)
+def print_list(list,idx):
+    if(idx==len(list)):
+        return
+    print(list[idx])
+    print_list(list,idx+1)
+
+fruits=["mango","apple","banana"]
+print_list(fruits,0)

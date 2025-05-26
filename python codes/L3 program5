@@ -1,0 +1,12 @@
+#tuple in python = '()'
+
+tup=(87,64,33,95,76)
+print(type(tup))
+print(tup)
+
+
+#NOTE: tup1=() is empty tuple
+#tup2=(1,) is single tuple but tup2=(1) is NOT a tuple iit is consider as integer value
+#tup3=(1,2,3) 
+
+#TUPLE IS IMMUTABE.

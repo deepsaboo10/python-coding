@@ -1,0 +1,14 @@
+# Writing in a file:
+
+f=open("new.txt","r+")
+f.write("abc")                   #overwrite from front of line
+f.close()                    #OUTPUT:abcm from Learning ...
+
+
+  
+  
+  
+  #NOTE:::
+# r+ = read + overwrite (pointer start)  - no truncate i.e no erase of data
+# w+ = read + overwrite          - truncate i.e erase of data
+# a+ = read + append (pointer end)  - no truncate i.e no erase of data

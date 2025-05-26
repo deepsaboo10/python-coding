@@ -1,0 +1,26 @@
+#print all even nos betn 1 to 100 by range:
+
+for i in range(2, 101 ,2):
+    print(i)
+
+#print all odd nos betn 1 to 100 by range:
+
+for i in range(1, 100 ,2):
+    print(i)
+
+
+
+#PRACTICE QUESTIONS
+#1. print numbers from 1 to 100
+for i in range(1,101):
+    print(i)
+
+#2. print numbers from 100 to 1
+for i in range(100,0,-1):
+    print(i)
+
+#3. print the multiplication table of a number 'n' 
+n=int(input("enter the no:"))
+
+for i in range(1,11):
+    print(n*i)

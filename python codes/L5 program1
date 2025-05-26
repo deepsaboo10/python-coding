@@ -1,0 +1,21 @@
+#WHILE loop :-  
+
+#WAP to print "hello" five times 
+count=1                                  #count is a Iterator
+while count<=5:
+    print("hello")
+    count+=1
+
+
+
+#print nos 1 to 5:
+i=1                                        # i is a Iterator
+while i<=5:
+    print("apnacollege",i)
+    i+=1
+
+print(i)
+print("loop ended")
+
+#Iterator :the variable by which Iteration happens. Example : i , j, count, x ,y ,z 
+#The process of looping x no of times is called x Iteration

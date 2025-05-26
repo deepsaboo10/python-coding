@@ -1,0 +1,13 @@
+collection = set()  #empty set ; SYNTAX 
+
+print(type(collection))
+
+
+
+collection={1,2,2,2,"hello","world","world"}
+
+print(collection)
+print(type(collection))
+print(len(collection))
+
+# NOTE : In a set repeated or duplicate values are ignored and set is unorderly printed .

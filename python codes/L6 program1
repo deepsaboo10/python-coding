@@ -1,0 +1,28 @@
+#fuction defination
+def calc_sum(a, b): #parameters
+    return a + b
+
+sum = calc_sum(2, 5) #fuction call ;  arguments
+print(sum)
+ 
+
+
+#To print "hello" 3 times by fuction calling :
+
+def print_hello():
+    print("hello")
+
+print_hello #hello 
+print_hello #hello
+print_hello #hello
+
+
+#To print average of 3 nos :
+
+def calc_avg (a , b, c):
+    sum= a + b + c
+    avg= sum/3
+    print(avg)   #96.6666666666667
+    return avg
+
+calc_avg(98,99,97)

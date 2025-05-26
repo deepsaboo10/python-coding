@@ -1,0 +1,34 @@
+#sets methods
+
+collection1 = set() #empty set
+collection1.add(1) # adds an element
+collection1.add(2)
+collection1.add((1,2,3))
+collection1.add("apnacollege")
+
+collection1.remove(2) #removes the element
+
+print(collection1)
+print(type(collection1))
+
+
+collection2 = set() #empty set
+collection2.add(1) 
+collection2.add(2)
+
+collection2.clear() # empties the whole set
+
+print(len(collection2))
+
+
+collection3={"hello","apnacollege","world","coding"}
+
+print(collection3.pop()) # pop's out random value and in random orders every time we print
+print(collection3.pop())
+
+
+set1={1,2,3,4}
+set2={3,4,5,6}
+
+print(set1.union(set2)) # combines both set values and returns new
+print(set1.intersection(set2)) #combines common values and returns new

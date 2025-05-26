@@ -1,0 +1,19 @@
+#Set is a collection of *unordered* items = {}
+
+collection1={1,2,"apnacollege",(1,2,3)}  
+
+print(collection1) #it is a set
+print(type(collection1))
+print(len(collection1))
+
+
+collection2={1,2,3,4}
+print(collection2) #it is a set
+print(type(collection2))
+print(len(collection2))
+
+
+# Note:: boolean,int,float,tuple,string can be stored in a set.
+# NOTE: List and dict CANNOT be stored in a set.
+
+#SET IS MUTABLE BUT ELEMNTS IN A SET IS IMMUTABLE.....

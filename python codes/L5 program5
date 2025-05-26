@@ -1,0 +1,19 @@
+#FOR loops:
+
+list=[1,2,3,4,5] #it can be list like i.e. veggies=["potato","cucumber","ladyfinger"]
+
+for val in list:
+    print(val)#list is stored in for loop
+
+
+
+tup=(1,2,3,6,3,5,2,4,5)
+
+for num in tup:
+    print(num)#nos will be printed in same sequence
+
+
+str="apnacollege"
+
+for char in str:
+    print(char) #str is been printed indiviually

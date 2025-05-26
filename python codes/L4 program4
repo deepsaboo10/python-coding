@@ -1,0 +1,18 @@
+#Dictionary Method = key:value pairs
+
+student={ 
+    "name":"rahul",
+    "subject":{"phy":98,
+               "chem":92,
+               "maths":100}}
+
+print(list(student.keys())) #in form of list ; returns all keys
+print(len(list(student.keys()))) #length of only keys
+
+print(student.values()) #returns all values
+
+print(student.items()) #returns all (key,val) pairs as tuples.
+
+print(student.get("name")) #returns the value acc to the key written
+
+print(student.update({"city":"delhi"})) #insert items to dictionary

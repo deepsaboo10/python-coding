@@ -1,0 +1,14 @@
+#File input/output in python:
+
+f=open("new.txt","r")  # (path,mode)
+data=f.read()                              #read the entire file
+print(data)
+print(type(data))
+f.close()
+
+
+# r = read the entire file
+# r+ = reads + overwrite 
+# w = write 
+# w+= overwrite + read  
+# a = appends or adds at the end of the file if it exists

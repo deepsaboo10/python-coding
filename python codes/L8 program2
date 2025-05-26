@@ -1,0 +1,15 @@
+#__init__() function :
+
+class Student:
+
+    #parameterized constructors
+    def __init__(self,name,marks):             #storing of name and marks of diff data
+        self.name= name
+        self.marks=marks
+        print("adding new student in Database..")
+
+s1=Student("karan", 96)
+print(s1.name,s1.marks)
+
+s2=Student("arjun", 73)
+print(s2.name,s2.marks)  

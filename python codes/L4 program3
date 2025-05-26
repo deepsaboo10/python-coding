@@ -1,0 +1,9 @@
+#Nested dictionaries 
+
+student={
+    "name":"rahul",
+    "subject":{"phy":98,
+               "chem":92,
+               "maths":100} }
+
+print(student)

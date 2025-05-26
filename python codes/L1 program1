@@ -1,0 +1,23 @@
+name = "deep"
+age = 18
+price = 25.99
+print(name)
+print("name")
+
+print(type(name))
+print(type(age))
+print(type(price))
+
+my_list = [1, 2, 3, 4, 5]
+my_set = {1, 2, 3, 4, 5, 5}  # Sets do not allow duplicates
+print(my_list)
+print(my_set)
+
+dict1 = {'Emp1': 'Raj', 'Emp3': 'Ritika', 'Emp5': 'Rahul'}
+dict2 = {'Emp2': 'Rohit', 'Emp4': 'Nikita', 'Emp6': 'Ameya'}
+merged_dict = {**dict1, **dict2}
+print(merged_dict)
+
+numbers = [1, 2, 3, 4]
+squared_numbers = list(map(lambda x: x ** 2, numbers))
+print(squared_numbers)

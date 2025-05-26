@@ -1,0 +1,20 @@
+#RECURSION : When a function calls itself repeatedly.
+
+#WAF to prints 5 to 1 backwards
+def show(n):
+    if(n==0):          #base case or a condition is necessary
+        return
+    print(n)     #5,4,3,2,1
+    show(n-1)                   #fuction call ; show(4),show(3)....show(1) goes up to first line 
+
+show(5) 
+
+
+#WAF to returns n! (factorial)       //[NOTE:n!= (n-1)! * n]//
+def fact(n):
+    if(n==1 or n==0):  #bcz it may continue to fact(-1) so it must be stopped on fact=1
+        return 1
+    else:
+        return n * fact(n-1)         #from NOTE : 4!= 3! *4 =1*2*3*4
+
+print(fact(4))

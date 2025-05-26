@@ -1,0 +1,13 @@
+#print nos from 5 to 1
+
+i=5        # i is a Iterator and the process of looping is called Iteration
+while i>=1:
+    print(i)
+    i-=1
+
+print("LOOP ENDED")
+
+
+
+
+# COMMENTS SHORTCUT:CTRL+ K + C

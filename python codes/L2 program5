@@ -1,0 +1,10 @@
+#WAP to  check if no is odd or even
+num=int(input("enter the number= "))
+rem=num%2
+if(rem==0):
+    print("even")
+else:
+    print("odd")    
+
+#WAP to check no is multiple of 7 or not
+        #num%7==0    

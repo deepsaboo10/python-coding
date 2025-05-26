@@ -1,0 +1,14 @@
+info={"name": "shraddha",
+      "cgpa":9.6,
+      "marks":[96,92,89,80]}
+print(info)
+
+#it is easy to add a new key:value pair in dictionary and make changes in old one
+
+info["surname"]="King" #add of new key-value pair
+info["name"]="shraddhakhapra" #overwrite
+
+print(info)
+
+
+#Dictionary is "Mutable".
